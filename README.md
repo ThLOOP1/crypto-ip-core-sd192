@@ -1,8 +1,8 @@
-### \# CryptoCore-SD192: IP Core de Criptografia em Verilog
+### CryptoCore-SD192: IP Core de Criptografia em Verilog
 
 
 
-\## 📌 Sobre o Projeto
+## 📌 Sobre o Projeto
 
 Este repositório contém o desenvolvimento de um IP Core voltado para criptografia em hardware, desenvolvido para a disciplina \*\*SD192 – Trabalho Orientado I\*\* da Especialização em Microeletrônica (Front-End Digital).
 
@@ -14,19 +14,19 @@ O objetivo é projetar um módulo eficiente, modular e parametrizável, seguindo
 
 \## 🚀 Status do Desenvolvimento
 
-\- \[x] Definição do Escopo e Algoritmo
+1\. ### [x] Definição do Escopo e Algoritmo
 
-\- \[ ] Modelagem da Arquitetura (FSM e Datapath)
+2\. ### [ ] Modelagem da Arquitetura (FSM e Datapath)
 
-\- \[ ] Codificação RTL (Verilog)
+3\. ### [ ] Codificação RTL (Verilog)
 
-\- \[ ] Verificação Funcional (Testbench)
+4\. ### [ ] Verificação Funcional (Testbench)
 
-\- \[ ] Documentação Final
+5\. ### [ ] Documentação Final
 
 
 
-\## 🛠️ Especificações Técnicas (Exemplo)
+## 🛠️ Especificações Técnicas (Exemplo)
 
 \* \*\*Linguagem:\*\* Verilog HDL (IEEE 1364-2005)
 
@@ -38,7 +38,7 @@ O objetivo é projetar um módulo eficiente, modular e parametrizável, seguindo
 
 
 
-\## 📂 Como Contribuir
+## 📂 Como Contribuir
 
 1\. Realize o \*\*Fork\*\* do projeto.
 
@@ -53,15 +53,15 @@ O objetivo é projetar um módulo eficiente, modular e parametrizável, seguindo
 
 \## 📂 Estrutura de Pastas
 
-1\.  \*\*/doc\*\* : Documentação, diagramas de blocos, especificações do algoritmo e o relatório final.
+1\.   /doc  : Documentação, diagramas de blocos, especificações do algoritmo e o relatório final.
 
-2\.  \*\*/rtl\*\* : Seus arquivos fonte em Verilog (.v).
+2\.   /rtl : Seus arquivos fonte em Verilog (.v).
 
-3\.  \*\*/sim\*\* : Arquivos de simulação, incluindo o Testbench e scripts de ferramentas (como Icarus Verilog ou ModelSim).
+3\.  /sim : Arquivos de simulação, incluindo o Testbench e scripts de ferramentas (como Icarus Verilog ou ModelSim).
 
-4\.  \*\*/scripts\*\* : Scripts de automação (TCL, Python ou Shell).
+4\.  /scripts : Scripts de automação (TCL, Python ou Shell).
 
-5\.  \*\*/syn\*\* (Opcional para este módulo) Relatórios de síntese lógica..
+5\.  /syn : (Opcional para este módulo) Relatórios de síntese lógica..
 
 
 
