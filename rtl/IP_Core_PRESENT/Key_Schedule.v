@@ -46,7 +46,7 @@ module key_schedule(
     assign sbox_in = rotated_key[79:76];
 
 	 
-    // Conectando com o módulo sbox.v que você enviou 
+    // Conexão com o módulo sbox.v 
     sbox u_sbox (
         .in_nibble (sbox_in), 
         .out_nibble(sbox_out)
@@ -75,5 +75,6 @@ module key_schedule(
             end
         end
     end
+
 
 endmodule
