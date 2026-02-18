@@ -16,25 +16,25 @@ O objetivo é projetar um módulo eficiente, modular e parametrizável, seguindo
 
 1\. ### [x] Definição do Escopo e Algoritmo
 
-2\. ### [ ] Modelagem da Arquitetura (FSM e Datapath)
+2\. ### [x] Modelagem da Arquitetura (FSM e Datapath)
 
-3\. ### [ ] Codificação RTL (Verilog)
+3\. ### [x] Codificação RTL (Verilog)
 
-4\. ### [ ] Verificação Funcional (Testbench)
+4\. ### [x] Verificação Funcional (Testbench)
 
 5\. ### [ ] Documentação Final
 
 
 
-## 🛠️ Especificações Técnicas (Exemplo)
+## 🛠️ Especificações Técnicas
 
 \* \*\*Linguagem:\*\* Verilog HDL (IEEE 1364-2005)
 
-\* \*\*Algoritmo:\*\* \[Inserir o algoritmo, ex: AES-128 ou Lightweight Cipher]
+\* \*\*Algoritmo:\*\* TEA e PRESENT
 
 \* \*\*Interface:\*\* Handshake simples (Ready/Valid) ou Barramento (tipo APB/AXI)
 
-\* \*\*Arquitetura:\*\* FSM + Datapath com suporte a \[inserir modo de operação]
+\* \*\*Arquitetura:\*\* FSM + Datapath com suporte a ECD
 
 
 
